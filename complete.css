@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #1abc9c;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=crop&h=400&w=1200') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#about {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+
+.about-text, .about-img {
+  flex: 1;
+}
+
+.about-img img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+#services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #ecf0f1;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-box {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#contact {
+  padding: 40px;
+  text-align: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #16a085;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #138d75;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+}

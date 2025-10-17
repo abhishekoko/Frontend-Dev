@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Verdana;
+}
+
+header, footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background: #2ecc71;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  color: white;
+}
+
+.bg1 {
+  background: linear-gradient(to right, #8e44ad, #3498db);
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: radial-gradient(circle, #f39c12, #d35400);
+  background-attachment: fixed;
+}
+
+.bg3 {
+  background-color: #16a085;
+}
