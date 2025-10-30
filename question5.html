@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CSS Selectors Demo</title>
+  <link rel="stylesheet" href="question5.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced CSS Selectors Demonstration</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Attribute Selectors</h2>
+      <input type="text" placeholder="Text input example">
+      <input type="email" placeholder="Email input (not styled)">
+      <a href="https://example.com">Secure Link (https)</a>
+      <a href="http://example.com">Non-Secure Link (http)</a>
+    </section>
+
+    <section>
+      <h2>Pseudo-classes and Pseudo-elements</h2>
+      <ul class="list-demo">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ul>
+    </section>
+
+    <section class="combinator-demo">
+      <h2>Combinator Selectors</h2>
+      <div class="parent">
+        <p>Direct child (>) paragraph</p>
+        <div>
+          <p>Nested paragraph (descendant)</p>
+        </div>
+        <h3>Heading</h3>
+        <p>Adjacent (+) paragraph</p>
+        <p>General sibling (~) paragraph</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created for Advanced CSS Selectors Practice</p>
+  </footer>
+</body>
+</html>

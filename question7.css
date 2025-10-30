@@ -1,0 +1,51 @@
+/* ===== Page Setup ===== */
+body {
+  font-family: "Georgia", serif;
+  background-color: #fefefe;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #1e272e;
+  color: white;
+  padding: 1em;
+}
+
+/* Article Styling */
+article {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1.5em;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Text Emphasis Elements ===== */
+mark {
+  background-color: #ffeaa7;
+  color: #2d3436;
+  font-weight: bold;
+}
+strong {
+  color: #d63031;
+}
+em {
+  color: #0984e3;
+}
+
+/* ===== Pseudo-elements ===== */
+/* Style first letter of first paragraph */
+article p:first-of-type::first-letter {
+  font-size: 2.5em;
+  color: #6c5ce7;
+  font-weight: bold;
+}
+
+/* Style first line */
+article p::first-line {
+  color: #636e72;
+  letter-spacing: 1px;
+}

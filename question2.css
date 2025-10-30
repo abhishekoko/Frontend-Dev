@@ -1,0 +1,63 @@
+/* Page Styling */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Centering the Boxes using Flexbox */
+.layout {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+/* Common Box Style */
+.box {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  overflow: auto; /* Demonstrate overflow */
+}
+
+/* Box with px and % */
+.box1 {
+  background-color: #ff6b6b;
+  width: 200px;
+  height: 30%;
+  min-height: 100px;
+}
+
+/* Box with vh and em */
+.box2 {
+  background-color: #1dd1a1;
+  width: 20em;
+  height: 30vh;
+}
+
+/* Box with min/max limits */
+.box3 {
+  background-color: #54a0ff;
+  width: 50%;
+  min-width: 150px;
+  max-width: 400px;
+  height: 200px;
+}

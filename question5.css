@@ -1,0 +1,81 @@
+/* ====== Page Setup ====== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header, footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/* ====== ATTRIBUTE SELECTORS ====== */
+/* Selects input with type="text" */
+input[type="text"] {
+  border: 2px solid #3498db;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+/* Selects links starting with "https" */
+a[href^="https"] {
+  color: green;
+  font-weight: bold;
+}
+
+/* ====== PSEUDO-CLASSES ====== */
+/* Hover effect */
+a:hover {
+  text-decoration: underline;
+  color: #e67e22;
+}
+
+/* Focus on input */
+input:focus {
+  border-color: #9b59b6;
+  outline: none;
+}
+
+/* Style every even list item using nth-child() */
+.list-demo li:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+/* ====== PSEUDO-ELEMENTS ====== */
+/* Add custom text before and after headings */
+h2::before {
+  content: "★ ";
+  color: #e67e22;
+}
+h2::after {
+  content: " ★";
+  color: #e67e22;
+}
+
+/* ====== COMBINATORS ====== */
+/* Child combinator (>) */
+.parent > p {
+  color: #16a085;
+  font-weight: bold;
+}
+
+/* Descendant combinator (space) */
+.parent div p {
+  color: #c0392b;
+}
+
+/* Adjacent sibling combinator (+) */
+h3 + p {
+  color: #2980b9;
+  font-style: italic;
+}
+
+/* General sibling combinator (~) */
+h3 ~ p {
+  text-decoration: underline;
+  color: #8e44ad;
+}
