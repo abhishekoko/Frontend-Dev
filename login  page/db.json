@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "2e65",
+      "name": "abhi",
+      "email": "abhishek73197319@gmail.com",
+      "phone": "6376669199",
+      "password": "P@ssw0rd1"
+    },
+    {
+      "id": "4ff5",
+      "name": "abhi",
+      "email": "abhishek73197319@gmail.comquery",
+      "phone": "6376669199",
+      "country": "India",
+      "gender": "male",
+      "password": "P@ssw0rd1"
+    },
+    {
+      "id": "f84a",
+      "name": "abhi",
+      "email": "abhishek73197319@gmail.comaxios",
+      "phone": "6376669199",
+      "country": "India",
+      "gender": "male",
+      "password": "P@ssw0rd1"
+    }
+  ]
+}
